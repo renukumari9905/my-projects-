@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+.Box {
+  display: inline-block;
+  border: 1px solid #470303;
+  background-color: #30075d;
+  color: #fff;
+}
+.Box h1 {
+  text-align: center;
+}
