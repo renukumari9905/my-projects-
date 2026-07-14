@@ -1,0 +1,71 @@
+*{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+    font-size: arial,sans,serif;
+
+}
+
+body{
+    background: #f2f2f2;
+}
+
+header{
+    background:#222222 ;
+    color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    color: #f2f2f2;
+    text-decoration: none;
+    margin-left: center;
+    padding: 50px;
+}
+
+.products{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.card img{
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgb(207, 200, 7);
+}
+
+.card button{
+    background: #183bd7;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    cursor:pointer;
+}
+
+.card button:hover{
+    background: red;
+
+}
+
+.contact{
+    text-align: center;
+    padding: 30px;
+    background: white;
+}
+
+footer{
+    background: #d820a1;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+}
+
